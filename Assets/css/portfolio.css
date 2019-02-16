@@ -1,0 +1,142 @@
+li a {
+  display: block;
+  color: rgb(184, 184, 184);
+  text-align: center;
+  padding-bottom: 7px 5px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  color: white;
+}
+
+h1 {
+  align-items: start;
+}
+
+body {
+  background: rgb(234, 234, 234);
+  font-family: Aria l, Helvetica, sans-serif;
+  font-weight: 90;
+  padding: 0;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 150%;
+  color: #333;
+}
+
+#container {
+  width: 100%;
+  vertical-align: center;
+}
+
+ul {
+  text-align: right;
+  list-style: none;
+  margin-top: -45px;
+  width: 100%;
+  float: right;
+  padding-right: 20px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px 0px;
+  width: 90px;
+  font-size: 14px;
+}
+
+#header {
+  background-color: white;
+  height: 100px;
+  width: 100%;
+}
+
+.name {
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  background-color: black;
+  font-size: 24px;
+  font-weight: 100;
+  padding-top: 40px;
+  color: white;
+}
+
+/*body starts here */
+
+/* .container1 {
+    width: 100%;
+    vertical-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 25px;
+    background-color: white;
+    height: 500px;
+} */
+
+.imagecontainer {
+  height: 600px;
+  display: inline-block;
+  width: 1200px;
+  vertical-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 25px;
+  background-color: white;
+  height: auto;
+  padding: 50px;
+margin: auto;
+justify-items: center;
+}
+
+.image1 {
+  display: grid;
+  grid-column: 1fr;
+  grid-row: 1fr;
+  width: 100%;
+  height: 100%;
+  justify-items: right;
+
+}
+.image2 {
+  display: grid;
+  display: block;
+  grid-column: 2fr;
+  grid-row: 1fr;
+  width: 100%;
+  height: 100%;
+}
+
+.image3 {
+    display: grid;
+    grid-column: 1fr;
+    grid-row: 1fr;
+    width: 100%;
+    height: 100%;
+    justify-items: right;
+}
+.image4 {
+  display: grid;
+  display: block;
+  grid-column: 2fr;
+  grid-row: 2fr;
+  width: 100%;
+  height: 100%;
+}
+
+.footer {
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  .icon-bar img {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+  }
